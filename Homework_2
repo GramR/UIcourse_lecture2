@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Five Things You Should Know About HTML5 - Dive Into HTML5 </title>
+   	<meta charset = "utf-8">
+	<!--link rel = "stylesheet" href = "st.css"-->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+	</script>
+</head>
+
+<body style = "max-width: 960px; margin: 0 auto;" link = "FireBrick" alink = "FireBrick" vlink = "RosyBrown">
+	<header>
+		<br>
+			<p>
+				<font size = "4">
+					You are here: &nbsp;
+					<a href = "#">Home</a>&nbsp;
+					<img src = "img/strilka.png" alt = "strelochka" valign = "middle"/>&nbsp;
+					<a href = "#">Dive Into <abbr>HTML5</abbr></a>&nbsp;
+					<img src = "img/strilka.png" alt = "strelochka" valign = "middle"/>
+				 </font> 
+			</p>
+
+			<br>
+
+			<h1 align = "center">
+				 <font face = "COMIC SANS MS" size = "266.7%">INTRODUCTION:<br>FIVE THINGS YOU SHOULD KNOW ABOUT HTML5</font>
+			</h1>
+
+			<p align = "center">
+				<br>
+				<br>
+				<font size = "4">
+					<a href = "#">show table of contents</a>
+				</font>
+				<br><br><br><br>
+				<img src = "img/ptichka.png" alt = "ptichka"/>
+			</p>
+	</header>
+	<article>
+			<br><br>
+			
+			<p>
+				<font face = "COMIC SANS MS" size = "6"><h2>1. It’s not one big thing</h2></font>
+			</p>
+			<table align = "right">
+					<tr>
+						<td>
+							<img src = "img/okno1.png" alt = "okno1" align = "right"/>
+						</td>
+					</tr>
+			</table>
+			<p style = "line-height: 1.5; word-spacing: 2px;">
+				<font size = "4">
+						You may well ask: “How can I start using <abbr>HTML5</abbr> if older browsers don’t support it?” But <br>the question itself is misleading. <abbr>HTML5</abbr> is not one big thing; it is a collection of individual <br>features. So you can’t detect “<abbr>HTML5</abbr> support,” because that doesn’t make any sense. But <br>you <em>can</em> detect support for individual features, like canvas, video, or geolocation.
+						<br><br>
+						You may think of <abbr>HTML</abbr> as tags and angle brackets. That’s an important part of it, but it’s <br>
+						not the whole story. The <abbr>HTML5</abbr> specification also defines how those angle brackets <br>interact with JavaScript, through the Document Object Model (<abbr>DOM</abbr>). <abbr>HTML5</abbr> doesn’t just <br> define a <code>&lt;video&gt;</code> tag; there is also a corresponding <abbr>DOM</abbr> <abbr>API</abbr> for video objects in the <abbr>DOM</abbr>. You can use this <abbr>API</abbr> to detect support for different video formats, play a video, pause, mute audio, track how much of the video has been downloaded, and everything else you need to build a rich user experience around the <code>&lt;video&gt;</code> tag itself.
+						<br><br>
+						<a href = "#">Chapter 2</a> and <a href = "#">Appendix A</a> will teach you how to properly detect support for each new <abbr>HTML5</abbr> feature.			
+				</font>
+			</p>
+			
+			<br>
+			
+			<p>
+				<font face = "COMIC SANS MS" size = "6"><h2>2. You don’t need to throw anything away</h2></font>
+			</p>
+			<table align = "left" cellspacing = "20">
+					<tr>
+						<td>
+							<img src = "img/okno2.png" alt = "okno2" align = "left"/>
+						</td>
+					</tr>
+			</table>
+			<p style = "line-height: 1.5; word-spacing: 2px;">
+				<font size = "4">
+						Love it or hate it, you can’t deny that <abbr>HTML</abbr> 4 is the most successful markup format ever. <abbr>HTML5</abbr> builds on that success. You don’t need to throw away your existing markup. You don’t need to relearn things you already know. If your web application worked yesterday in <abbr>HTML</abbr> 4, it will still work today in <abbr>HTML5</abbr>. Period.
+						<br><br>
+						Now, if you want to <em>improve</em> your web applications, you’ve come to the right place. Here’s a concrete example: <abbr>HTML5</abbr> supports all the form controls from <abbr>HTML</abbr> 4, but it also includes new input controls. Some of these are long-overdue additions like sliders and date pickers; others are more subtle. For example, the <code>email</code> input type looks just like a text box, but mobile browsers will customize their onscreen keyboard to make it easier to type email addresses. Older browsers that don’t support the <code>email</code> input type will treat it as a regular text field, and the form still works with no markup changes or scripting hacks. This means you can start improving your web forms <em>today</em>, even if some of your visitors are stuck on IE 6.
+						<br><br>
+						Read all the gory details about <abbr>HTML5</abbr> forms in <a href = "#">Chapter 9</a>.
+				</font>
+			</p>
+
+			<br>
+			
+			<p>
+				<font face = "COMIC SANS MS" size = "6"><h2>3. It’s easy to get started</h2></font>
+			</p>
+			<table align = "right">
+					<tr>
+						<td>
+							<img src = "img/okno3.png" alt = "okno3" align = "right"/>
+						</td>
+					</tr>
+			</table>
+			<p style = "line-height: 1.7; word-spacing: 2px;">
+				<font size = "4">
+						“Upgrading” to <abbr>HTML5</abbr> can be as simple as changing your <i>doctype</i>. The doctype should already be on the first line of every <abbr>HTML</abbr> page. Previous versions of <abbr>HTML</abbr> defined a lot <br> of doctypes, and choosing the right one could be tricky. In <abbr>HTML5</abbr>, there is only one <br> doctype:
+						
+						<blockquote>
+						<p><code>&lt;!DOCTYPE html&gt;</code></p>
+						</blockquote>
+						
+				</font>
+			</p>
+			<p style = "line-height: 1.7; word-spacing: 2px;">
+				<font size = "4">
+						Upgrading to the <abbr>HTML5</abbr> doctype won’t break your existing markup, because <a href = "#">obsolete elements</a> previously defined in HTML 4 will still render in <abbr>HTML5</abbr>. But it will allow you <br> to use — and validate — new semantic elements like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. You’ll learn all about these new elements in <a href = "#">Chapter 3</a>.	
+				</font>
+			</p>
+
+			<br>
+			
+			<p>
+				<font face = "COMIC SANS MS" size = "6"><h2>4. It already works</h2></font>
+			</p>
+			<table align = "left">
+					<tr>
+						<td>
+							<img src = "img/okno4.png" alt = "okno4" align = "left"/>
+						</td>
+					</tr>
+			</table>
+			<p style = "line-height: 1.5; word-spacing: 2px; margin-left: 265px;">
+				<font size = "4">
+						Whether you want to draw on a canvas, play video, design better forms, or build web applications that work offline, you’ll find that <abbr>HTML5</abbr> is already well-supported. Firefox, Safari, Chrome, Opera, and mobile browsers already support canvas (<a href = "#">Chapter 4</a>), video (<a href = "#">Chapter 5</a>), geolocation (<a href = "#">Chapter 6</a>), local storage (<a href = "#">Chapter 7</a>), and more. Google already supports microdata annotations (<a href = "#">Chapter 10</a>). Even Microsoft — rarely known for blazing the trail of standards support — supports most <abbr>HTML5</abbr> features in Internet Explorer 9.
+				</font>
+			</p>
+			<table align = "right">
+					<tr>
+						<td>
+							<img src = "img/okno4_2.png" alt = "okno4_2" align = "right"/>
+						</td>
+					</tr>
+			</table>
+			<p style = "line-height: 1.5; word-spacing: 2px;">
+				<font size = "4" style = "margin-left: 33px;">
+						Each chapter of this book includes the all-too-familiar browser
+				</font>
+				<font size = "4" style = "margin-left: 267px;">
+						compatibility charts. But more importantly, each chapter includes a <br>
+				</font>
+				<font size = "4" style = "line-height: 1.5; word-spacing: 2px;">
+						frank discussion of your options if you need to support older browsers. <abbr>HTML5</abbr> features like geolocation (<a href = "#">Chapter 6</a>) and video (<a href = "#">Chapter 5</a>) were first provided by browser plugins like Gears or Flash. Other <br> features, like canvas (<a href = "#">Chapter 4</a>), can be emulated entirely in JavaScript. This book will teach you how to <br>  target the native features of modern browsers, without leaving older browsers behind.
+				</font>
+			</p>
+			
+			<br>
+
+			<p>
+				<font face = "COMIC SANS MS" size = "6"><h2>5. It’s here to stay</h2></font>
+			</p>
+			<p style = "line-height: 1.7; word-spacing: 2px;">
+				<font size = "4">
+						Tim Berners-Lee invented the world wide web in the early 1990s. He later founded the <abbr>W3C</abbr> to act as a steward of web standards, which the organization has done for more than 15 years. Here is what the <abbr>W3C</abbr> had to say about the future of <br> web standards, in July 2009:
+						<br>
+							<blockquote style = "line-height: 1.7; word-spacing: 2px;">
+								Today the Director announces that when the <abbr>XHTML</abbr> 2 Working Group charter expires as scheduled at the end of 2009, the charter will not be renewed. By doing so, and by increasing resources in the <abbr>HTML</abbr> Working Group, <br><abbr>W3C</abbr> hopes to accelerate the progress of <abbr>HTML5</abbr> and clarify <abbr>W3C</abbr>’s position regarding the future of <abbr>HTML</abbr>.
+							</blockquote>
+						<br>
+						<abbr>HTML5</abbr> is here to stay. <a href = "#">Let’s dive in</a>.
+				</font>
+			</p>
+	</article>
+	<footer>
+		<p align = "center">
+			<br><br>
+			<img src = "img/ptichka.png" alt = "ptichka2"/>
+			<br><br><br>
+		</p>
+		<table height = "350" width = "100%" border = "0">
+			<tr height = "36" bgcolor = "#000">
+				<td colspan = "2">
+					<font face = "COMIC SANS MS" size = "4" color = "#FFF"> &nbsp;DID YOU KNOW?</font>
+				</td>
+			</tr>
+			<tr>
+				<td width = "673">
+					<p>
+						<font size = "4">
+							<blockquote style = "line-height: 1.7; word-spacing: 2px;">
+								In association with Google Press, O’Reilly is distributing this book in a variety of formats, including paper, ePub, Mobi, and <abbr>DRM</abbr>-free <abbr>PDF</abbr>. The paid edition is called “HTML5: Up &amp; Running,” and it is available now.
+								<br><br>If you liked this introduction and want to show your appreciation, you can <a href = "#">buy “HTML5: Up &amp; Running” with this affiliate link</a> or <a href = "#">buy an electronic edition directly from O’Reilly</a>. You’ll get a book, and I’ll get a buck. I do not currently accept direct donations.
+							</blockquote>
+						</font>
+					</p>
+				</td>
+				<td>
+					<table cellpadding = "30">
+						<tr>
+							<td><img src = "img/dyadya.png" alt = "dyadya"/></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<p align = "center">
+			Copyright MMIX–MMXI <a href = "#"><font color = "#000">Mark Pilgrim</font></a>
+		</p>
+		<form action = "#" align = "center">
+			<input type = "hidden">
+			<input type = "hidden"><input type = "search" size = "25" placeholder = "powered by Google&trade;">
+			&nbsp;<input type = "submit" value = "Search">
+			</form>
+			<br>
+			<br>
+	</footer>
+</body>
+
+</html>
